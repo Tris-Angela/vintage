@@ -1,0 +1,133 @@
+body{
+    background-color: rgb(45, 26, 62);
+    color: rgb(220, 220, 209);
+    margin: 0;
+    font-family: 'Crimson Pro', serif;
+}
+section{
+    height: 50%;
+    
+}
+.design{
+    background-color: rgb(40, 40, 67);}
+.myself{
+    background-image: url(Images/vintage\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.vers img{
+    border-radius: 50%;
+    display: block;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    padding: 5%;
+    padding-bottom: 0;
+}   
+.tone{
+    padding: 3%;
+    padding-top: 0;
+}
+.design-2{
+    background-color: rgb(45, 45, 77);
+}
+.vin-1{
+    max-width: 200px;
+    padding: 5%;
+    float: left;
+    position: relative;
+    display: inline-block;
+}
+.vin-1 img{
+    max-width: 100%;
+}
+.vin-2{
+    padding: 5%;
+    width: 100%;
+}
+h3{
+    color: rgb(205, 47, 47);
+}
+h1{
+    color: #ffffff;
+}
+h1, h2, h3, h4, h5, h6{
+    line-height: 5px; 
+}
+.sizes{
+    width: 90%;
+}
+table{
+    border: 1px solid rgb(253, 181, 13);
+    width: 70%;
+    height: 50px;
+    padding: 20px;
+}
+.special{
+    color: #ffffff;
+    font-weight: bold;
+}
+.button{
+    text-decoration: none;
+    background-image:linear-gradient(cyan, darkcyan) ;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: darkblue;
+    font-weight: 700;
+}
+.due{
+    text-decoration: underline red ;
+}
+.clean{
+    padding: 5%;
+    width: 100%;
+}
+#boxes{
+    content: "";
+    display: table;
+    clear: both;
+    margin-left: 10px;
+}
+.new{
+    float: left;
+    height: 100%;
+    width: 25%;
+    padding: 5px 5px;
+    border: 1px solid rgb(255, 153, 0);
+    margin: 10px;
+}
+h2{
+    line-height: 1;
+}
+footer{
+    color: rgb(89, 75, 199);
+    font-weight: bold;
+}
+.large{
+    color: rgb(205, 47, 47);
+    font-weight: bolder;
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+.dashboard_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: none;
+    color: white;
+    padding: 2px; 
+    text-align: left;
+    font-weight: bold;
+}
+#content {
+    position: relative;
+    border: 1px solid rgb(255, 153, 0);
+    color: rgb(255, 153, 0);
+    padding: 2px;
+    width: 100px;
+    height: 30px;
+}
